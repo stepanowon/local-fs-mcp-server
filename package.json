@@ -1,0 +1,27 @@
+{
+  "name": "filesystem-mcp-server",
+  "version": "0.1.0",
+  "description": "로컬 파일 시스템에 접근하는 MCP 서버",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "filesystem-mcp-server": "./index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --inspect src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "filesystem",
+    "file-operations"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
